@@ -408,7 +408,7 @@
                             'data-tgl="' + row.pengaduan_tgl_pengaduan + '" ' +
                             'data-isi="' + row.pengaduan_isi_laporan + '" ' +
                             'data-foto="' + row.pengaduan_foto + '" ' +
-                            'class=" btn btn-info"><i class="fa fa-search" data-toggle="modal" data-target="#modaldetail"></i></button>' +
+                            'class="informasi btn btn-info"><i class="fa fa-search" data-toggle="modal" data-target="#modaldetail"></i></button>' +
                             '<span> </span>' +
                             '<button class="del btn btn-danger"><i class="fa fa-trash" aria-hidden="true"></i></button>'
 

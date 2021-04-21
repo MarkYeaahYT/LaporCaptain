@@ -20,7 +20,12 @@ $(document).ready(function() {
         })
     })
 
-    $("#datareal").on("click", "", function() {
-
+    $("#datareal").on("click", ".informasi", function() {
+        $("#pelapor").val($(this).data("nama"))
+        $("#judul").val($(this).data("judul"))
+        $("#tanggal").val($(this).data("tgl"))
+        $("#isil").val($(this).data("isi"))
+        $("#foto").attr("src", '/uploads/'+$(this).data("foto"))
+        
     })
 })
